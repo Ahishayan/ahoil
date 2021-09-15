@@ -1,6 +1,6 @@
 
 //ADD YOUR FIREBASE LINKS HERE
-const firebaseConfig = {
+var firebaseConfig = {
       apiKey: "AIzaSyBMCCQ6sGjOBb82MKlR-N3A2sT6c8aI128",
       authDomain: "kiwiter-copy.firebaseapp.com",
       projectId: "kiwiter-copy",

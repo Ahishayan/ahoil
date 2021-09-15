@@ -3,6 +3,7 @@
 var firebaseConfig = {
       apiKey: "AIzaSyBMCCQ6sGjOBb82MKlR-N3A2sT6c8aI128",
       authDomain: "kiwiter-copy.firebaseapp.com",
+        databaseURL: "https://kiwiter-copy-default-rtdb.firebaseio.com",
       projectId: "kiwiter-copy",
       storageBucket: "kiwiter-copy.appspot.com",
       messagingSenderId: "856257144331",

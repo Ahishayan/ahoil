@@ -22,7 +22,7 @@ function getData() {firebase.database().ref("/").on('value', function(snapshot) 
        Room_names = childKey;
       //Start code
       console.log("room_name",Room_names);
-      row= "<div class='room_name' id='"+Room_names+"' onclick='redirect_room(thisdotid)'>"+Room_names+"</div>";
+      row= "<div class='room_name' id='"+Room_names+"' onclick='redirect_room(this.id)'>"+Room_names+"</div>";
       document.getElementById("output").innerHTML +=row;
       //End code
       });});}

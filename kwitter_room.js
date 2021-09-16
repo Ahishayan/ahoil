@@ -29,7 +29,10 @@ function getData() {firebase.database().ref("/").on('value', function(snapshot) 
 getData();
 
 
-
+function redirect_room(id){
+      localStorage.setItem("room_name",id);
+      window.location = "kwitter_page.html";
+}
 function logout(){
       window.location = "index.html";}
 
